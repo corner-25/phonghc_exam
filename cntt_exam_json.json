@@ -1,0 +1,1481 @@
+{
+  "examInfo": {
+    "title": "Đề thi Công nghệ thông tin - Tin học văn phòng",
+    "description": "Bộ câu hỏi trắc nghiệm về Microsoft Office, Excel, Word, PowerPoint, hệ điều hành và các ứng dụng văn phòng",
+    "totalQuestions": 102,
+    "timeLimit": "60 minutes",
+    "passingScore": 50
+  },
+  "categories": [
+    {
+      "id": "microsoft_office",
+      "name": "Microsoft Office cơ bản",
+      "description": "Câu hỏi về Word, Excel, PowerPoint cơ bản"
+    },
+    {
+      "id": "excel_functions", 
+      "name": "Hàm Excel",
+      "description": "Câu hỏi về các hàm Excel với ví dụ cụ thể"
+    },
+    {
+      "id": "printing",
+      "name": "In ấn và định dạng",
+      "description": "Câu hỏi về in ấn, thiết lập trang"
+    },
+    {
+      "id": "cloud_office",
+      "name": "Ứng dụng đám mây",
+      "description": "Google Docs, Google Sheets và các ứng dụng đám mây"
+    },
+    {
+      "id": "modern_tech",
+      "name": "Công nghệ hiện đại",
+      "description": "AI, Cloud Computing, các ứng dụng hiện đại"
+    },
+    {
+      "id": "email",
+      "name": "Email và giao tiếp",
+      "description": "Sử dụng email, CC, BCC, đính kèm"
+    },
+    {
+      "id": "troubleshooting",
+      "name": "Xử lý sự cố",
+      "description": "Khắc phục lỗi thường gặp"
+    },
+    {
+      "id": "windows",
+      "name": "Hệ điều hành Windows",
+      "description": "Phím tắt, tính năng Windows"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Phần mềm Microsoft Word chủ yếu dùng để làm gì?",
+      "options": [
+        "A. Tạo bảng tính",
+        "B. Tạo tài liệu văn bản",
+        "C. Tạo trình chiếu",
+        "D. Quản lý cơ sở dữ liệu"
+      ],
+      "correctAnswer": "B",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": "Microsoft Word là phần mềm xử lý văn bản chính của Microsoft Office."
+    },
+    {
+      "id": 2,
+      "question": "Trong Microsoft Excel, hàm nào dùng để tính tổng của một cột hoặc hàng?",
+      "options": [
+        "A. AVERAGE",
+        "B. SUM",
+        "C. COUNT",
+        "D. IF"
+      ],
+      "correctAnswer": "B",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": "Hàm SUM được sử dụng để tính tổng các giá trị số trong Excel."
+    },
+    {
+      "id": 3,
+      "question": "Khi lưu một tài liệu Word, định dạng nào là phổ biến nhất?",
+      "options": [
+        "A. .jpg",
+        "B. .docx",
+        "C. .pptx",
+        "D. .txt"
+      ],
+      "correctAnswer": "B",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": ".docx là định dạng mặc định của Microsoft Word từ phiên bản 2007 trở đi."
+    },
+    {
+      "id": 4,
+      "question": "Phím tắt nào để sao chép nội dung văn bản trong Microsoft Word?",
+      "options": [
+        "A. Ctrl + X",
+        "B. Ctrl + V",
+        "C. Ctrl + C",
+        "D. Ctrl + Z"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": "Ctrl + C là phím tắt tiêu chuẩn để sao chép trong hầu hết các ứng dụng Windows."
+    },
+    {
+      "id": 5,
+      "question": "Trong PowerPoint, để chuyển đổi giữa các slide, bạn sử dụng tính năng nào?",
+      "options": [
+        "A. Animation",
+        "B. Slide Show",
+        "C. Transition",
+        "D. Layout"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Transition là tính năng tạo hiệu ứng chuyển đổi giữa các slide trong PowerPoint."
+    },
+    {
+      "id": 6,
+      "question": "Hệ điều hành nào sau đây là hệ điều hành mã nguồn mở?",
+      "options": [
+        "A. Windows",
+        "B. Linux",
+        "C. macOS",
+        "D. iOS"
+      ],
+      "correctAnswer": "B",
+      "category": "windows",
+      "difficulty": "easy",
+      "explanation": "Linux là hệ điều hành mã nguồn mở, miễn phí và có thể tùy chỉnh."
+    },
+    {
+      "id": 7,
+      "question": "Để chèn biểu đồ trong Microsoft Excel, bạn chọn thẻ nào?",
+      "options": [
+        "A. Home",
+        "B. Insert",
+        "C. Data",
+        "D. Review"
+      ],
+      "correctAnswer": "B",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": "Thẻ Insert chứa các tính năng chèn đối tượng như biểu đồ, hình ảnh, bảng."
+    },
+    {
+      "id": 8,
+      "question": "Trong hệ thống thông tin văn phòng, phần mềm nào sau đây là phần mềm quản lý cơ sở dữ liệu?",
+      "options": [
+        "A. Microsoft Word",
+        "B. Microsoft Excel",
+        "C. Microsoft Access",
+        "D. Microsoft PowerPoint"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Microsoft Access là hệ quản trị cơ sở dữ liệu trong bộ Microsoft Office."
+    },
+    {
+      "id": 9,
+      "question": "Trong Microsoft Word, để thay đổi kích thước phông chữ, bạn sử dụng phím tắt nào?",
+      "options": [
+        "A. Ctrl + P",
+        "B. Ctrl + [ hoặc Ctrl + ]",
+        "C. Ctrl + B",
+        "D. Ctrl + I"
+      ],
+      "correctAnswer": "B",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Ctrl + [ giảm kích thước phông chữ, Ctrl + ] tăng kích thước phông chữ."
+    },
+    {
+      "id": 10,
+      "question": "Định dạng nào dưới đây dùng để lưu trữ bảng tính trong Excel?",
+      "options": [
+        "A. .docx",
+        "B. .xlsx",
+        "C. .pptx",
+        "D. .html"
+      ],
+      "correctAnswer": "B",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": ".xlsx là định dạng mặc định của Microsoft Excel từ phiên bản 2007."
+    },
+    {
+      "id": 11,
+      "question": "Trong Microsoft Word, tính năng Track Changes được sử dụng để làm gì?",
+      "options": [
+        "A. Theo dõi những thay đổi trong tài liệu",
+        "B. Tạo bảng biểu",
+        "C. In tài liệu",
+        "D. Chèn hình ảnh"
+      ],
+      "correctAnswer": "A",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Track Changes giúp theo dõi và ghi lại tất cả các thay đổi được thực hiện trong tài liệu."
+    },
+    {
+      "id": 12,
+      "question": "Hệ thống nào giúp thư ký quản lý công văn, thư từ và các văn bản liên quan?",
+      "options": [
+        "A. Hệ thống xử lý văn bản",
+        "B. Hệ thống quản lý dữ liệu",
+        "C. Hệ thống quản lý văn bản",
+        "D. Hệ thống quản lý thời gian"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Hệ thống quản lý văn bản chuyên dụng cho việc tổ chức và quản lý tài liệu văn phòng."
+    },
+    {
+      "id": 13,
+      "question": "Trong Excel, hàm IF cho phép bạn làm gì?",
+      "options": [
+        "A. Tạo bảng biểu",
+        "B. Tạo điều kiện logic",
+        "C. Tạo biểu đồ",
+        "D. Tính trung bình cộng"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "Hàm IF kiểm tra điều kiện và trả về giá trị khác nhau tùy theo kết quả đúng/sai."
+    },
+    {
+      "id": 14,
+      "question": "Phần mềm nào dưới đây là phần mềm tạo và quản lý email?",
+      "options": [
+        "A. Microsoft Word",
+        "B. Microsoft Outlook",
+        "C. Microsoft PowerPoint",
+        "D. Microsoft Access"
+      ],
+      "correctAnswer": "B",
+      "category": "email",
+      "difficulty": "easy",
+      "explanation": "Microsoft Outlook là ứng dụng email chính thức của Microsoft Office."
+    },
+    {
+      "id": 15,
+      "question": "Phím tắt nào dùng để in tài liệu trong Microsoft Word?",
+      "options": [
+        "A. Ctrl + S",
+        "B. Ctrl + P",
+        "C. Ctrl + O",
+        "D. Ctrl + N"
+      ],
+      "correctAnswer": "B",
+      "category": "printing",
+      "difficulty": "easy",
+      "explanation": "Ctrl + P là phím tắt mở hộp thoại in trong hầu hết các ứng dụng."
+    },
+    {
+      "id": 16,
+      "question": "Phần mềm nào dùng để tạo các bài trình chiếu chuyên nghiệp?",
+      "options": [
+        "A. Microsoft Excel",
+        "B. Microsoft Word",
+        "C. Microsoft PowerPoint",
+        "D. Microsoft Access"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": "Microsoft PowerPoint là ứng dụng tạo slide trình chiếu chuyên nghiệp."
+    },
+    {
+      "id": 17,
+      "question": "Trong Excel, hàm nào sau đây dùng để đếm số ô chứa dữ liệu?",
+      "options": [
+        "A. COUNT",
+        "B. AVERAGE",
+        "C. MAX",
+        "D. MIN"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "Hàm COUNT đếm số ô chứa giá trị số, COUNTA đếm ô không trống."
+    },
+    {
+      "id": 18,
+      "question": "Định dạng nào dưới đây là định dạng tệp PowerPoint?",
+      "options": [
+        "A. .pptx",
+        "B. .xlsx",
+        "C. .docx",
+        "D. .html"
+      ],
+      "correctAnswer": "A",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": ".pptx là định dạng file PowerPoint từ phiên bản 2007 trở đi."
+    },
+    {
+      "id": 19,
+      "question": "Phím tắt để lưu tệp tin trong Microsoft Word là gì?",
+      "options": [
+        "A. Ctrl + L",
+        "B. Ctrl + P",
+        "C. Ctrl + S",
+        "D. Ctrl + O"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": "Ctrl + S là phím tắt lưu file trong hầu hết các ứng dụng Windows."
+    },
+    {
+      "id": 20,
+      "question": "Trong Excel, để khóa một ô cụ thể trong công thức, bạn sử dụng ký tự nào?",
+      "options": [
+        "A. #",
+        "B. $",
+        "C. %",
+        "D. @"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "Ký tự $ được dùng để tạo absolute reference (tham chiếu tuyệt đối) trong Excel."
+    },
+    {
+      "id": 21,
+      "question": "Trong Microsoft Word, để tạo danh sách có dấu đầu dòng, bạn sử dụng thẻ nào?",
+      "options": [
+        "A. Insert",
+        "B. Home",
+        "C. Review",
+        "D. Layout"
+      ],
+      "correctAnswer": "B",
+      "category": "microsoft_office",
+      "difficulty": "easy",
+      "explanation": "Thẻ Home chứa các tính năng định dạng văn bản cơ bản như bullet list."
+    },
+    {
+      "id": 22,
+      "question": "Khi sử dụng hệ thống thông tin quản lý, khái niệm \"hệ quản trị cơ sở dữ liệu\" là gì?",
+      "options": [
+        "A. Hệ thống quản lý văn bản",
+        "B. Hệ thống xử lý dữ liệu",
+        "C. Hệ thống lưu trữ và quản lý dữ liệu",
+        "D. Hệ thống xử lý email"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "DBMS (Database Management System) là hệ thống quản lý cơ sở dữ liệu."
+    },
+    {
+      "id": 23,
+      "question": "Để tạo liên kết đến một trang web trong Microsoft Word, bạn sử dụng phím tắt nào?",
+      "options": [
+        "A. Ctrl + K",
+        "B. Ctrl + L",
+        "C. Ctrl + H",
+        "D. Ctrl + T"
+      ],
+      "correctAnswer": "A",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Ctrl + K mở hộp thoại Insert Hyperlink để tạo liên kết."
+    },
+    {
+      "id": 24,
+      "question": "Trong Excel, biểu đồ nào sau đây hiển thị dữ liệu theo dạng cột dọc?",
+      "options": [
+        "A. Pie Chart",
+        "B. Line Chart",
+        "C. Bar Chart",
+        "D. Column Chart"
+      ],
+      "correctAnswer": "D",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "Column Chart hiển thị dữ liệu dưới dạng các cột dọc."
+    },
+    {
+      "id": 25,
+      "question": "Trong Microsoft Word, chức năng nào giúp chia cột nội dung của văn bản?",
+      "options": [
+        "A. Break",
+        "B. Split",
+        "C. Columns",
+        "D. Table"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Tính năng Columns cho phép chia văn bản thành nhiều cột như báo."
+    },
+    {
+      "id": 26,
+      "question": "Để thay đổi hướng trang trong Word, bạn sử dụng thẻ nào?",
+      "options": [
+        "A. Insert",
+        "B. Review",
+        "C. Page Layout",
+        "D. Home"
+      ],
+      "correctAnswer": "C",
+      "category": "printing",
+      "difficulty": "easy",
+      "explanation": "Page Layout chứa các tùy chọn về định dạng trang như orientation."
+    },
+    {
+      "id": 27,
+      "question": "Trong Excel, hàm nào dưới đây trả về giá trị nhỏ nhất trong một tập dữ liệu?",
+      "options": [
+        "A. MAX",
+        "B. AVERAGE",
+        "C. SUM",
+        "D. MIN"
+      ],
+      "correctAnswer": "D",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "Hàm MIN trả về giá trị nhỏ nhất trong tập dữ liệu được chỉ định."
+    },
+    {
+      "id": 28,
+      "question": "Trong hệ thống quản lý văn bản, tính năng nào giúp lưu trữ các phiên bản khác nhau của một tài liệu?",
+      "options": [
+        "A. Tính năng bảo mật",
+        "B. Tính năng theo dõi thay đổi",
+        "C. Tính năng lưu phiên bản",
+        "D. Tính năng sao lưu"
+      ],
+      "correctAnswer": "C",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Version control giúp quản lý các phiên bản khác nhau của tài liệu."
+    },
+    {
+      "id": 29,
+      "question": "Trong Excel, ký hiệu nào thể hiện phép chia trong công thức?",
+      "options": [
+        "A. *",
+        "B. -",
+        "C. /",
+        "D. +"
+      ],
+      "correctAnswer": "C",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "Ký hiệu / được sử dụng cho phép chia trong công thức Excel."
+    },
+    {
+      "id": 30,
+      "question": "Trong PowerPoint, để thêm hiệu ứng cho văn bản hoặc đối tượng, bạn sử dụng thẻ nào?",
+      "options": [
+        "A. Insert",
+        "B. Animation",
+        "C. Slide Show",
+        "D. Review"
+      ],
+      "correctAnswer": "B",
+      "category": "microsoft_office",
+      "difficulty": "medium",
+      "explanation": "Thẻ Animation chứa các hiệu ứng chuyển động cho đối tượng trong slide."
+    },
+    {
+      "id": 31,
+      "question": "Hàm nào sau đây dùng để tính trung bình cộng của một dãy số trong Excel?",
+      "options": [
+        "A. SUM",
+        "B. AVERAGE",
+        "C. MEDIAN",
+        "D. COUNT"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "Hàm AVERAGE tính giá trị trung bình cộng của các số trong phạm vi được chỉ định."
+    },
+    {
+      "id": 32,
+      "question": "Hàm VLOOKUP trong Excel dùng để làm gì?",
+      "options": [
+        "A. Tính tổng các ô trong một cột",
+        "B. Tìm kiếm giá trị trong một cột và trả về giá trị tương ứng",
+        "C. Tìm kiếm giá trị trong một hàng và trả về giá trị tương ứng",
+        "D. Đếm số ô không trống"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "VLOOKUP tìm kiếm theo chiều dọc (Vertical) và trả về giá trị tương ứng."
+    },
+    {
+      "id": 33,
+      "question": "Hàm nào sau đây trả về giá trị lớn nhất trong một tập hợp dữ liệu?",
+      "options": [
+        "A. MIN",
+        "B. MAX",
+        "C. LARGE",
+        "D. COUNT"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "Hàm MAX trả về giá trị lớn nhất trong tập dữ liệu được chỉ định."
+    },
+    {
+      "id": 34,
+      "question": "Hàm COUNTIF trong Excel dùng để làm gì?",
+      "options": [
+        "A. Đếm tổng số ô",
+        "B. Đếm số ô thỏa mãn một điều kiện cụ thể",
+        "C. Tính tổng các giá trị theo điều kiện",
+        "D. Đếm số ô trống"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "COUNTIF đếm số ô thỏa mãn điều kiện được chỉ định."
+    },
+    {
+      "id": 35,
+      "question": "Hàm nào trong Excel dùng để nối các chuỗi văn bản lại với nhau?",
+      "options": [
+        "A. CONCATENATE",
+        "B. SUMIF",
+        "C. JOIN",
+        "D. TEXT"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "CONCATENATE hoặc & dùng để nối các chuỗi văn bản lại với nhau."
+    },
+    {
+      "id": 36,
+      "question": "Hàm LEFT trong Excel dùng để làm gì?",
+      "options": [
+        "A. Cắt chuỗi từ bên trái của văn bản",
+        "B. Cắt chuỗi từ bên phải của văn bản",
+        "C. Đếm số ký tự của văn bản",
+        "D. Tính tổng các giá trị trong một chuỗi"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "LEFT trả về số ký tự được chỉ định từ bên trái của chuỗi text."
+    },
+    {
+      "id": 37,
+      "question": "Hàm nào sau đây có thể trả về ngày hiện tại trong Excel?",
+      "options": [
+        "A. NOW",
+        "B. TODAY",
+        "C. DATE",
+        "D. TIME"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "TODAY() trả về ngày hiện tại, NOW() trả về cả ngày và giờ."
+    },
+    {
+      "id": 38,
+      "question": "Hàm nào dùng để kiểm tra một ô có phải là số hay không trong Excel?",
+      "options": [
+        "A. ISNUMBER",
+        "B. ISNUM",
+        "C. ISLOGIC",
+        "D. ISDATA"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "ISNUMBER kiểm tra xem giá trị trong ô có phải là số hay không."
+    },
+    {
+      "id": 39,
+      "question": "Hàm SUMIF trong Excel dùng để làm gì?",
+      "options": [
+        "A. Tính tổng các giá trị thỏa mãn một điều kiện cụ thể",
+        "B. Tính tổng tất cả các giá trị trong một bảng",
+        "C. Đếm số ô không trống",
+        "D. Tính tổng các số âm"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "SUMIF tính tổng các ô thỏa mãn điều kiện được chỉ định."
+    },
+    {
+      "id": 40,
+      "question": "Giả sử ô A1 chứa giá trị 10, ô A2 chứa giá trị 20, và ô A3 chứa giá trị 30. Công thức nào sau đây sẽ trả về giá trị trung bình của các ô A1, A2, A3?",
+      "options": [
+        "A. =SUM(A1:A3)",
+        "B. =AVERAGE(A1:A3)",
+        "C. =COUNT(A1:A3)",
+        "D. =MAX(A1:A3)"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "AVERAGE tính trung bình cộng: (10+20+30)/3 = 20."
+    },
+    {
+      "id": 41,
+      "question": "Giả sử ô A1 chứa \"John\", ô A2 chứa \"Doe\", công thức nào sau đây sẽ nối hai ô A1 và A2 để tạo thành \"John Doe\"?",
+      "options": [
+        "A. =CONCATENATE(A1, \" \", A2)",
+        "B. =JOIN(A1, A2)",
+        "C. =TEXT(A1 & A2)",
+        "D. =ADD(A1, A2)"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "CONCATENATE nối các chuỗi text, \" \" thêm khoảng trắng."
+    },
+    {
+      "id": 42,
+      "question": "Giả sử bạn có một bảng dữ liệu với cột A là các tên sản phẩm và cột B là giá bán. Nếu bạn muốn tìm giá của sản phẩm có tên \"Laptop\" trong cột A, công thức nào sau đây là đúng?",
+      "options": [
+        "A. =LOOKUP(\"Laptop\", A1:A10, B1:B10)",
+        "B. =VLOOKUP(\"Laptop\", A1:B10, 2, FALSE)",
+        "C. =HLOOKUP(\"Laptop\", A1:B10, 2, FALSE)",
+        "D. =IF(A1:A10=\"Laptop\", B1:B10)"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "hard",
+      "explanation": "VLOOKUP tìm \"Laptop\" trong cột A và trả về giá từ cột B (cột thứ 2)."
+    },
+    {
+      "id": 43,
+      "question": "Giả sử bạn có một danh sách gồm 100 số từ ô A1 đến ô A100. Bạn muốn đếm số ô chứa giá trị lớn hơn 50. Công thức nào sau đây là đúng?",
+      "options": [
+        "A. =COUNTIF(A1:A100, \">50\")",
+        "B. =IF(A1:A100>50)",
+        "C. =COUNT(A1:A100>50)",
+        "D. =SUMIF(A1:A100, \">50\")"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "COUNTIF đếm số ô thỏa mãn điều kiện >50."
+    },
+    {
+      "id": 44,
+      "question": "Giả sử ô A1 chứa giá trị 100, ô A2 chứa giá trị 50. Công thức nào sau đây trả về giá trị lớn hơn trong hai ô này?",
+      "options": [
+        "A. =LARGER(A1, A2)",
+        "B. =MAX(A1, A2)",
+        "C. =IF(A1>A2, A1, A2)",
+        "D. =BOTH(A1, A2)"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "MAX trả về giá trị lớn nhất trong các ô được chỉ định."
+    },
+    {
+      "id": 45,
+      "question": "Giả sử cột A chứa các giá trị từ A1 đến A10. Bạn muốn đếm các ô không trống trong cột A. Công thức nào sau đây là đúng?",
+      "options": [
+        "A. =COUNTA(A1:A10)",
+        "B. =COUNT(A1:A10)",
+        "C. =COUNTBLANK(A1:A10)",
+        "D. =SUM(A1:A10)"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "COUNTA đếm ô không trống, COUNT chỉ đếm ô chứa số."
+    },
+    {
+      "id": 46,
+      "question": "Giả sử ô A1 chứa chuỗi văn bản \"Hello World\". Công thức nào sau đây trả về \"Hello\"?",
+      "options": [
+        "A. =LEFT(A1, 5)",
+        "B. =RIGHT(A1, 5)",
+        "C. =MID(A1, 1, 5)",
+        "D. =TEXT(A1, \"Hello\")"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "LEFT(A1, 5) lấy 5 ký tự đầu tiên từ bên trái: \"Hello\"."
+    },
+    {
+      "id": 47,
+      "question": "Giả sử ô A1 chứa giá trị ngày \"01/01/2024\". Công thức nào sau đây trả về ngày hiện tại?",
+      "options": [
+        "A. =DATE()",
+        "B. =TODAY()",
+        "C. =NOW(A1)",
+        "D. =TIME(A1)"
+      ],
+      "correctAnswer": "B",
+      "category": "excel_functions",
+      "difficulty": "easy",
+      "explanation": "TODAY() luôn trả về ngày hiện tại, không phụ thuộc vào A1."
+    },
+    {
+      "id": 48,
+      "question": "Giả sử cột A chứa các giá trị từ A1 đến A10. Bạn muốn kiểm tra xem ô A1 có chứa giá trị là số hay không. Công thức nào sau đây là đúng?",
+      "options": [
+        "A. =ISNUMBER(A1)",
+        "B. =NUMBER(A1)",
+        "C. =ISNUMERIC(A1)",
+        "D. =IF(A1=NUMBER)"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "ISNUMBER(A1) kiểm tra xem A1 có chứa giá trị số hay không."
+    },
+    {
+      "id": 49,
+      "question": "Giả sử cột A chứa các giá trị từ A1 đến A10. Bạn muốn tính tổng các giá trị trong cột A mà lớn hơn 10. Công thức nào sau đây là đúng?",
+      "options": [
+        "A. =SUMIF(A1:A10, \">10\")",
+        "B. =IF(A1:A10>10, SUM(A1:A10))",
+        "C. =COUNTIF(A1:A10, \">10\")",
+        "D. =SUM(A1:A10, \">10\")"
+      ],
+      "correctAnswer": "A",
+      "category": "excel_functions",
+      "difficulty": "medium",
+      "explanation": "SUMIF tính tổng các giá trị thỏa mãn điều kiện >10."
+    },
+    {
+      "id": 50,
+      "question": "Để in một tài liệu Word, bạn sử dụng phím tắt nào sau đây?",
+      "options": [
+        "A. Ctrl + P",
+        "B. Ctrl + I",
+        "C. Ctrl + O",
+        "D. Ctrl + S"
+      ],
+      "correctAnswer": "A",
+      "category": "printing",
+      "difficulty": "easy",
+      "explanation": "Ctrl + P mở hộp thoại in trong hầu hết các ứng dụng."
+    },
+    {
+      "id": 51,
+      "question": "Khi muốn in chỉ một trang cụ thể trong tài liệu, bạn cần làm gì trong hộp thoại in?",
+      "options": [
+        "A. Chọn \"All Pages\"",
+        "B. Chọn \"Current Page\"",
+        "C. Chọn \"Selection\"",
+        "D. Chọn \"Custom Pages\" và nhập số trang cần in"
+      ],
+      "correctAnswer": "D",
+      "category": "printing",
+      "difficulty": "medium",
+      "explanation": "Custom Pages cho phép chỉ định chính xác trang nào cần in."
+    },
+    {
+      "id": 52,
+      "question": "Để thiết lập khổ giấy trước khi in, bạn vào tab nào trong Microsoft Word?",
+      "options": [
+        "A. Home",
+        "B. Insert",
+        "C. Page Layout",
+        "D. Review"
+      ],
+      "correctAnswer": "C",
+      "category": "printing",
+      "difficulty": "easy",
+      "explanation": "Page Layout chứa các tùy chọn về định dạng và thiết lập trang."
+    },
+    {
+      "id": 53,
+      "question": "Trong hộp thoại in, lựa chọn \"Print on Both Sides\" (in hai mặt) có tác dụng gì?",
+      "options": [
+        "A. In hai trang trên một mặt giấy",
+        "B. In một tài liệu ra hai bản",
+        "C. In hai mặt của mỗi tờ giấy",
+        "D. Chỉ in trang chẵn của tài liệu"
+      ],
+      "correctAnswer": "C",
+      "category": "printing",
+      "difficulty": "easy",
+      "explanation": "Print on Both Sides cho phép in duplex để tiết kiệm giấy."
+    },
+    {
+      "id": 54,
+      "question": "Khi muốn in nhiều bản sao của một tài liệu, bạn sẽ điều chỉnh tùy chọn nào trong hộp thoại in?",
+      "options": [
+        "A. Số lượng trang",
+        "B. Số lượng bản in",
+        "C. Loại máy in",
+        "D. Chế độ in đơn lẻ hay in hàng loạt"
+      ],
+      "correctAnswer": "B",
+      "category": "printing",
+      "difficulty": "easy",
+      "explanation": "Copies (số lượng bản in) quyết định số bản copy được in."
+    },
+    {
+      "id": 55,
+      "question": "Một trong những ưu điểm lớn nhất của Google Docs là gì?",
+      "options": [
+        "A. Cung cấp nhiều mẫu thiết kế đa dạng",
+        "B. Khả năng làm việc nhóm trực tuyến theo thời gian thực",
+        "C. Tích hợp phần mềm lập trình",
+        "D. Hỗ trợ đầy đủ tính năng như Microsoft Word ngoại tuyến"
+      ],
+      "correctAnswer": "B",
+      "category": "cloud_office",
+      "difficulty": "easy",
+      "explanation": "Real-time collaboration là ưu điểm nổi bật nhất của Google Docs."
+    },
+    {
+      "id": 56,
+      "question": "Khuyết điểm chính của Google Sheets khi so sánh với Microsoft Excel là gì?",
+      "options": [
+        "A. Không thể chia sẻ tệp",
+        "B. Không hỗ trợ các hàm cơ bản",
+        "C. Khả năng xử lý dữ liệu lớn kém hơn",
+        "D. Không có chức năng tạo biểu đồ"
+      ],
+      "correctAnswer": "C",
+      "category": "cloud_office",
+      "difficulty": "medium",
+      "explanation": "Google Sheets có giới hạn về performance với dataset lớn."
+    },
+    {
+      "id": 57,
+      "question": "Google Docs có ưu điểm nào sau đây so với các phần mềm soạn thảo văn bản khác?",
+      "options": [
+        "A. Không cần cài đặt, sử dụng trực tiếp qua trình duyệt",
+        "B. Không cần kết nối Internet",
+        "C. Có nhiều tính năng chỉnh sửa nâng cao hơn Word",
+        "D. Hoạt động tốt nhất chỉ khi dùng trên máy tính"
+      ],
+      "correctAnswer": "A",
+      "category": "cloud_office",
+      "difficulty": "easy",
+      "explanation": "Web-based application không cần cài đặt là ưu điểm lớn."
+    },
+    {
+      "id": 58,
+      "question": "Một hạn chế của Google Sheets là gì?",
+      "options": [
+        "A. Không thể mở cùng lúc nhiều trang tính",
+        "B. Hạn chế về số lượng công thức có thể sử dụng",
+        "C. Chức năng vẽ đồ thị bị giới hạn",
+        "D. Khả năng tích hợp với các ứng dụng Google khác bị giới hạn"
+      ],
+      "correctAnswer": "C",
+      "category": "cloud_office",
+      "difficulty": "medium",
+      "explanation": "Google Sheets có ít tùy chọn biểu đồ hơn so với Excel."
+    },
+    {
+      "id": 59,
+      "question": "Ưu điểm của Google Sheets và Google Docs khi lưu trữ tệp là gì?",
+      "options": [
+        "A. Tệp được lưu trữ cục bộ trên máy tính",
+        "B. Tệp tự động lưu và lưu trữ trên đám mây (Google Drive)",
+        "C. Tệp cần phải được lưu thủ công",
+        "D. Tệp chỉ lưu được ở định dạng PDF"
+      ],
+      "correctAnswer": "B",
+      "category": "cloud_office",
+      "difficulty": "easy",
+      "explanation": "Auto-save và cloud storage là ưu điểm lớn của Google Apps."
+    },
+    {
+      "id": 60,
+      "question": "Công nghệ đám mây (Cloud Computing) trong tin học văn phòng giúp ích gì cho người dùng?",
+      "options": [
+        "A. Chỉ lưu trữ dữ liệu trên ổ cứng máy tính",
+        "B. Cho phép truy cập và chỉnh sửa dữ liệu từ bất kỳ thiết bị nào có kết nối Internet",
+        "C. Giới hạn khả năng lưu trữ dữ liệu",
+        "D. Không hỗ trợ làm việc nhóm"
+      ],
+      "correctAnswer": "B",
+      "category": "modern_tech",
+      "difficulty": "medium",
+      "explanation": "Cloud computing cung cấp khả năng truy cập dữ liệu mọi lúc, mọi nơi."
+    },
+    {
+      "id": 61,
+      "question": "Ứng dụng nào sau đây là một công cụ cộng tác trực tuyến phổ biến cho các nhóm làm việc văn phòng?",
+      "options": [
+        "A. Google Keep",
+        "B. Slack",
+        "C. Adobe Photoshop",
+        "D. VLC Media Player"
+      ],
+      "correctAnswer": "B",
+      "category": "modern_tech",
+      "difficulty": "easy",
+      "explanation": "Slack là platform giao tiếp và cộng tác team phổ biến."
+    },
+    {
+      "id": 62,
+      "question": "Tiến bộ nào sau đây đã giúp tự động hóa các tác vụ lặp lại trong tin học văn phòng?",
+      "options": [
+        "A. Trí tuệ nhân tạo (AI) và máy học (Machine Learning)",
+        "B. Công nghệ in 3D",
+        "C. Thực tế ảo (VR)",
+        "D. Blockchain"
+      ],
+      "correctAnswer": "A",
+      "category": "modern_tech",
+      "difficulty": "medium",
+      "explanation": "AI và ML giúp tự động hóa nhiều tác vụ văn phòng repetitive."
+    },
+    {
+      "id": 63,
+      "question": "Ứng dụng nào dưới đây sử dụng trí tuệ nhân tạo để giúp người dùng viết nội dung và kiểm tra lỗi chính tả trong văn bản?",
+      "options": [
+        "A. Grammarly",
+        "B. Dropbox",
+        "C. Microsoft Excel",
+        "D. AutoCAD"
+      ],
+      "correctAnswer": "A",
+      "category": "modern_tech",
+      "difficulty": "easy",
+      "explanation": "Grammarly sử dụng AI để kiểm tra ngữ pháp và đề xuất cải thiện văn bản."
+    },
+    {
+      "id": 64,
+      "question": "Microsoft Teams là một phần mềm chủ yếu dùng để làm gì trong văn phòng?",
+      "options": [
+        "A. Tạo bài thuyết trình",
+        "B. Quản lý email",
+        "C. Tổ chức cuộc họp trực tuyến và cộng tác nhóm",
+        "D. Chỉnh sửa hình ảnh"
+      ],
+      "correctAnswer": "C",
+      "category": "modern_tech",
+      "difficulty": "easy",
+      "explanation": "Microsoft Teams là platform collaboration và video conferencing."
+    },
+    {
+      "id": 65,
+      "question": "Tiến bộ nào sau đây giúp cải thiện hiệu quả làm việc nhóm trong các ứng dụng văn phòng hiện đại?",
+      "options": [
+        "A. Chế độ ngoại tuyến",
+        "B. Chia sẻ tài liệu và cộng tác trực tuyến theo thời gian thực",
+        "C. Sử dụng máy in 3D",
+        "D. Hỗ trợ đa ngôn ngữ"
+      ],
+      "correctAnswer": "B",
+      "category": "modern_tech",
+      "difficulty": "medium",
+      "explanation": "Real-time collaboration là xu hướng chính của office apps hiện đại."
+    },
+    {
+      "id": 66,
+      "question": "Công cụ nào sau đây giúp tự động hóa báo cáo và phân tích dữ liệu trong Microsoft Excel?",
+      "options": [
+        "A. Power BI",
+        "B. Microsoft Word",
+        "C. Adobe Acrobat",
+        "D. Google Calendar"
+      ],
+      "correctAnswer": "A",
+      "category": "modern_tech",
+      "difficulty": "medium",
+      "explanation": "Power BI là công cụ business intelligence của Microsoft cho data analytics."
+    },
+    {
+      "id": 67,
+      "question": "Google Workspace là một bộ ứng dụng văn phòng bao gồm các ứng dụng nào?",
+      "options": [
+        "A. Google Docs, Google Sheets, Google Drive",
+        "B. Microsoft Word, Excel, PowerPoint",
+        "C. Adobe Photoshop, Illustrator, Premiere Pro",
+        "D. Slack, Zoom, Notion"
+      ],
+      "correctAnswer": "A",
+      "category": "modern_tech",
+      "difficulty": "easy",
+      "explanation": "Google Workspace (trước đây là G Suite) bao gồm Docs, Sheets, Slides, Drive, etc."
+    },
+    {
+      "id": 68,
+      "question": "Ứng dụng nào sau đây giúp quản lý và theo dõi tiến độ công việc cho nhóm trong văn phòng?",
+      "options": [
+        "A. Trello",
+        "B. VLC Media Player",
+        "C. Audacity",
+        "D. Google Maps"
+      ],
+      "correctAnswer": "A",
+      "category": "modern_tech",
+      "difficulty": "easy",
+      "explanation": "Trello là công cụ project management sử dụng Kanban boards."
+    },
+    {
+      "id": 69,
+      "question": "Tiến bộ nào sau đây cho phép người dùng chuyển đổi giọng nói thành văn bản trong các ứng dụng văn phòng?",
+      "options": [
+        "A. Xử lý ngôn ngữ tự nhiên (Natural Language Processing)",
+        "B. Công nghệ Blockchain",
+        "C. Mạng di động 5G",
+        "D. Kỹ thuật hình ảnh 4K"
+      ],
+      "correctAnswer": "A",
+      "category": "modern_tech",
+      "difficulty": "medium",
+      "explanation": "NLP và speech recognition cho phép voice-to-text conversion."
+    },
+    {
+      "id": 70,
+      "question": "Địa chỉ email hợp lệ cần phải bao gồm yếu tố nào sau đây?",
+      "options": [
+        "A. Chỉ có ký tự @",
+        "B. Tên người dùng và tên miền có ký tự @ giữa chúng",
+        "C. Chỉ cần tên người dùng",
+        "D. Bất kỳ ký tự nào cũng hợp lệ"
+      ],
+      "correctAnswer": "B",
+      "category": "email",
+      "difficulty": "easy",
+      "explanation": "Email hợp lệ có định dạng: username@domain.com"
+    },
+    {
+      "id": 71,
+      "question": "CC (Carbon Copy) trong email dùng để làm gì?",
+      "options": [
+        "A. Gửi bản sao của email cho người khác mà không cần để người nhận chính biết",
+        "B. Gửi bản sao cho người khác nhưng tất cả đều thấy được ai nhận email",
+        "C. Gửi thư điện tử tới nhiều người mà không ai biết ai đã nhận thư",
+        "D. Để lưu trữ email"
+      ],
+      "correctAnswer": "B",
+      "category": "email",
+      "difficulty": "medium",
+      "explanation": "CC cho phép gửi copy đến nhiều người và tất cả đều thấy recipient list."
+    },
+    {
+      "id": 72,
+      "question": "BCC (Blind Carbon Copy) trong email có nghĩa là gì?",
+      "options": [
+        "A. Gửi bản sao của email mà người nhận chính không biết ai đã nhận bản sao",
+        "B. Gửi bản sao cho tất cả mọi người trong nhóm",
+        "C. Gửi email đến nhiều người mà họ có thể thấy danh sách người nhận",
+        "D. Chỉ gửi cho người nhận chính"
+      ],
+      "correctAnswer": "A",
+      "category": "email",
+      "difficulty": "medium",
+      "explanation": "BCC ẩn danh sách người nhận copy, bảo vệ privacy."
+    },
+    {
+      "id": 73,
+      "question": "Khi trả lời một email công việc, để trả lời cho tất cả người trong chuỗi email, bạn chọn tùy chọn nào?",
+      "options": [
+        "A. Reply",
+        "B. Reply All",
+        "C. Forward",
+        "D. CC"
+      ],
+      "correctAnswer": "B",
+      "category": "email",
+      "difficulty": "easy",
+      "explanation": "Reply All gửi phản hồi đến tất cả người trong email thread."
+    },
+    {
+      "id": 74,
+      "question": "Khi muốn gửi một tệp tài liệu qua email, bạn cần sử dụng tính năng nào?",
+      "options": [
+        "A. Forward",
+        "B. Attach (Đính kèm)",
+        "C. CC",
+        "D. Reply All"
+      ],
+      "correctAnswer": "B",
+      "category": "email",
+      "difficulty": "easy",
+      "explanation": "Attach/Attachment cho phép đính kèm file vào email."
+    },
+    {
+      "id": 75,
+      "question": "Khi muốn gửi lại một email cũ mà bạn đã nhận được cho một người khác, bạn sử dụng tính năng nào?",
+      "options": [
+        "A. Reply",
+        "B. Reply All",
+        "C. Forward",
+        "D. CC"
+      ],
+      "correctAnswer": "C",
+      "category": "email",
+      "difficulty": "easy",
+      "explanation": "Forward chuyển tiếp email đến người khác không có trong thread gốc."
+    },
+    {
+      "id": 76,
+      "question": "Khi nào nên sử dụng chức năng \"High Priority\" (Ưu tiên cao) trong email?",
+      "options": [
+        "A. Mọi email gửi đi",
+        "B. Email yêu cầu sự chú ý hoặc phản hồi gấp",
+        "C. Email có nội dung dài",
+        "D. Email nội bộ không quan trọng"
+      ],
+      "correctAnswer": "B",
+      "category": "email",
+      "difficulty": "medium",
+      "explanation": "High Priority chỉ dùng cho email thực sự urgent để tránh spam."
+    },
+    {
+      "id": 77,
+      "question": "Trước khi nhấn gửi email, tại sao bạn nên đọc lại nội dung email?",
+      "options": [
+        "A. Để chắc chắn rằng ngôn từ phù hợp và không có lỗi chính tả",
+        "B. Để thêm biểu tượng cảm xúc",
+        "C. Để xóa bớt nội dung không cần thiết",
+        "D. Để gửi nhanh hơn"
+      ],
+      "correctAnswer": "A",
+      "category": "email",
+      "difficulty": "medium",
+      "explanation": "Proofreading giúp tránh lỗi và đảm bảo tính chuyên nghiệp."
+    },
+    {
+      "id": 78,
+      "question": "Nếu Word hiển thị thông báo \"Document not responding\", bạn nên làm gì trước tiên?",
+      "options": [
+        "A. Tắt máy tính",
+        "B. Đợi vài phút để xem Word có hoạt động lại không",
+        "C. Tắt Word ngay lập tức",
+        "D. Cài lại Word"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "Đợi một chút vì Word có thể đang xử lý tác vụ nặng."
+    },
+    {
+      "id": 79,
+      "question": "Khi bạn gặp vấn đề về căn lề trong Word, văn bản bị xô lệch và không đồng đều, bạn nên làm gì?",
+      "options": [
+        "A. Thay đổi font chữ",
+        "B. Sử dụng tính năng \"Justify\" để căn chỉnh đều hai bên",
+        "C. Xóa toàn bộ văn bản",
+        "D. Thay đổi kích thước trang"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "Justify alignment căn chỉnh text đều ở cả hai bên lề."
+    },
+    {
+      "id": 80,
+      "question": "Trong Excel, nếu bạn thấy lỗi \"#DIV/0!\" trong một ô, nguyên nhân phổ biến là gì?",
+      "options": [
+        "A. Ô chứa dữ liệu văn bản",
+        "B. Bạn đã thực hiện phép chia cho 0",
+        "C. Sai công thức SUM",
+        "D. Ô bị khóa"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "#DIV/0! xuất hiện khi formula chia cho 0 hoặc ô trống."
+    },
+    {
+      "id": 81,
+      "question": "Khi mở một file Excel lớn, máy bị chậm hoặc đứng, bạn nên thử cách nào sau đây để cải thiện hiệu suất?",
+      "options": [
+        "A. Tắt phần mềm diệt virus",
+        "B. Tắt các ứng dụng khác đang chạy và tắt chế độ tính toán tự động trong Excel",
+        "C. Tắt máy in",
+        "D. Cài đặt lại Excel"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "hard",
+      "explanation": "Giải phóng RAM và tắt automatic calculation giúp cải thiện performance."
+    },
+    {
+      "id": 82,
+      "question": "Nếu bạn không thể tìm thấy thanh công cụ Ribbon trong Word, bạn nên làm gì để khôi phục nó?",
+      "options": [
+        "A. Khởi động lại máy tính",
+        "B. Nhấp đúp vào một tab trên thanh công cụ hoặc nhấn Ctrl + F1",
+        "C. Mở một tài liệu mới",
+        "D. Xóa tài liệu hiện tại"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "Double-click tab hoặc Ctrl+F1 toggle Ribbon visibility."
+    },
+    {
+      "id": 83,
+      "question": "Khi mở một tệp Excel và gặp thông báo \"File is Corrupt\", cách xử lý nào sau đây nên được thử trước tiên?",
+      "options": [
+        "A. Tải phần mềm khác để mở tệp",
+        "B. Sử dụng tính năng \"Open and Repair\" của Excel",
+        "C. Đổi tên tệp",
+        "D. Xóa tệp và tạo lại"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "Open and Repair là tính năng built-in của Excel để recover corrupted files."
+    },
+    {
+      "id": 84,
+      "question": "Nếu bạn gặp lỗi \"#VALUE!\" trong công thức Excel, nguyên nhân thường là gì?",
+      "options": [
+        "A. Đã nhập công thức không hợp lệ hoặc sử dụng kiểu dữ liệu không đúng",
+        "B. Thiếu hàm SUM",
+        "C. Sai định dạng bảng",
+        "D. Đang sử dụng ô trống"
+      ],
+      "correctAnswer": "A",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "#VALUE! thường do data type mismatch hoặc invalid formula syntax."
+    },
+    {
+      "id": 85,
+      "question": "Khi bạn cố in một tài liệu Word nhưng không thấy xuất hiện bất kỳ bản in nào, việc đầu tiên bạn nên kiểm tra là gì?",
+      "options": [
+        "A. Khởi động lại Word",
+        "B. Kiểm tra kết nối với máy in và cài đặt máy in đúng",
+        "C. Xóa tài liệu và in lại",
+        "D. Kiểm tra font chữ"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "easy",
+      "explanation": "Vấn đề in thường do connection hoặc printer settings."
+    },
+    {
+      "id": 86,
+      "question": "Trong Excel, nếu một công thức không tính toán đúng, kết quả trả về là giá trị cũ, nguyên nhân có thể là gì?",
+      "options": [
+        "A. Bạn chưa lưu tệp",
+        "B. Tính toán tự động đã bị tắt",
+        "C. Excel bị lỗi phần cứng",
+        "D. Công thức không có dấu \"=\""
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "Manual calculation mode khiến formulas không auto-update."
+    },
+    {
+      "id": 87,
+      "question": "Nếu gặp lỗi \"Document is locked for editing\" trong Word, bạn nên làm gì?",
+      "options": [
+        "A. Mở tài liệu dưới dạng chỉ đọc",
+        "B. Tìm người dùng khác đang mở tài liệu và yêu cầu họ đóng nó",
+        "C. Khởi động lại máy tính",
+        "D. Sao chép và dán nội dung vào tài liệu mới"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "File lock thường do user khác đang edit, cần coordinate để unlock."
+    },
+    {
+      "id": 88,
+      "question": "Nếu bạn gặp lỗi \"Page Numbers Not Displaying\" khi thêm số trang vào tài liệu Word, bạn nên kiểm tra điều gì?",
+      "options": [
+        "A. Cài đặt phông chữ",
+        "B. Kiểm tra định dạng của phần Header/Footer",
+        "C. Kiểm tra kích thước văn bản",
+        "D. Đổi định dạng của văn bản thành PDF"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "Page numbers thường ở header/footer, cần check formatting settings."
+    },
+    {
+      "id": 89,
+      "question": "Khi bảng tính Excel hiển thị lỗi \"#REF!\" trong một ô công thức, nguyên nhân thường gặp là gì?",
+      "options": [
+        "A. Phép chia cho 0",
+        "B. Ô chứa công thức tham chiếu đến một ô đã bị xóa",
+        "C. Lỗi dữ liệu không khớp",
+        "D. Ô có dữ liệu văn bản"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "#REF! xuất hiện khi formula reference đến cell đã bị deleted."
+    },
+    {
+      "id": 90,
+      "question": "Nếu Word bị treo khi bạn mở một tài liệu lớn, cách xử lý nào sau đây có thể giúp mở tài liệu một cách an toàn?",
+      "options": [
+        "A. Mở tài liệu trong chế độ Safe Mode của Word",
+        "B. Tắt tất cả các phần mềm khác",
+        "C. Xóa tài liệu và khởi động lại máy",
+        "D. Cài lại Word"
+      ],
+      "correctAnswer": "A",
+      "category": "troubleshooting",
+      "difficulty": "hard",
+      "explanation": "Safe Mode disable add-ins và features có thể gây conflict."
+    },
+    {
+      "id": 91,
+      "question": "Khi in trong Excel, nếu dữ liệu bị cắt bớt và không vừa trang giấy, cách khắc phục nào sau đây là phù hợp nhất?",
+      "options": [
+        "A. Giảm độ phân giải của máy in",
+        "B. Sử dụng tùy chọn \"Fit to Page\" trong thiết lập in",
+        "C. Tăng kích thước font chữ",
+        "D. In từng trang một"
+      ],
+      "correctAnswer": "B",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "Fit to Page scaling giúp dữ liệu vừa với trang in."
+    },
+    {
+      "id": 92,
+      "question": "Khi bạn sao chép dữ liệu từ một nguồn khác vào Excel và thấy lỗi định dạng, bạn nên sử dụng tính năng nào để dán dữ liệu một cách chính xác?",
+      "options": [
+        "A. Paste Special",
+        "B. AutoSum",
+        "C. Conditional Formatting",
+        "D. Save As"
+      ],
+      "correctAnswer": "A",
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "explanation": "Paste Special cho phép control format và data type khi paste."
+    },
+    {
+      "id": 93,
+      "question": "Phím tắt nào giúp bạn mở nhanh cửa sổ Task Manager trong Windows?",
+      "options": [
+        "A. Ctrl + Shift + Esc",
+        "B. Alt + F4",
+        "C. Ctrl + Alt + Delete",
+        "D. Windows + D"
+      ],
+      "correctAnswer": "A",
+      "category": "windows",
+      "difficulty": "medium",
+      "explanation": "Ctrl+Shift+Esc mở trực tiếp Task Manager."
+    },
+    {
+      "id": 94,
+      "question": "Phím tắt Windows + D trong Windows có chức năng gì?",
+      "options": [
+        "A. Tắt máy tính",
+        "B. Mở trình duyệt",
+        "C. Hiển thị màn hình Desktop",
+        "D. Khóa màn hình"
+      ],
+      "correctAnswer": "C",
+      "category": "windows",
+      "difficulty": "easy",
+      "explanation": "Windows+D minimize tất cả cửa sổ và show desktop."
+    },
+    {
+      "id": 95,
+      "question": "File Explorer trong Windows dùng để làm gì?",
+      "options": [
+        "A. Quản lý và truy cập các tệp tin, thư mục trên máy tính",
+        "B. Chỉnh sửa hình ảnh",
+        "C. Tạo và chỉnh sửa video",
+        "D. Kết nối với mạng internet"
+      ],
+      "correctAnswer": "A",
+      "category": "windows",
+      "difficulty": "easy",
+      "explanation": "File Explorer là file manager chính của Windows."
+    },
+    {
+      "id": 96,
+      "question": "Trong Windows, để tìm kiếm nhanh một ứng dụng hoặc tệp, bạn sử dụng tính năng nào?",
+      "options": [
+        "A. File Explorer",
+        "B. Control Panel",
+        "C. Taskbar",
+        "D. Search (Cortana)"
+      ],
+      "correctAnswer": "D",
+      "category": "windows",
+      "difficulty": "easy",
+      "explanation": "Windows Search/Cortana cung cấp tìm kiếm nhanh."
+    },
+    {
+      "id": 97,
+      "question": "Windows Update trong hệ điều hành Windows có chức năng gì?",
+      "options": [
+        "A. Cài đặt phần mềm diệt virus",
+        "B. Tự động cập nhật và cài đặt các bản vá, cải tiến hệ điều hành",
+        "C. Tải xuống phần mềm từ Microsoft Store",
+        "D. Xóa tệp tin rác khỏi hệ thống"
+      ],
+      "correctAnswer": "B",
+      "category": "windows",
+      "difficulty": "medium",
+      "explanation": "Windows Update cung cấp OS updates và security patches."
+    },
+    {
+      "id": 98,
+      "question": "Để chụp ảnh màn hình trên Windows mà không cần phần mềm, bạn sử dụng phím tắt nào?",
+      "options": [
+        "A. Alt + PrtSc",
+        "B. Windows + PrtSc",
+        "C. Ctrl + C",
+        "D. Windows + Shift + S"
+      ],
+      "correctAnswer": "D",
+      "category": "windows",
+      "difficulty": "medium",
+      "explanation": "Windows+Shift+S mở Snip & Sketch tool cho screenshot."
+    },
+    {
+      "id": 99,
+      "question": "Control Panel trong Windows có tác dụng gì?",
+      "options": [
+        "A. Truy cập vào các thiết lập và tùy chọn quản lý hệ thống",
+        "B. Quản lý các tệp tin trên ổ cứng",
+        "C. Chơi game",
+        "D. Xem video"
+      ],
+      "correctAnswer": "A",
+      "category": "windows",
+      "difficulty": "easy",
+      "explanation": "Control Panel chứa các system settings và administrative tools."
+    },
+    {
+      "id": 100,
+      "question": "Để đóng một ứng dụng đang chạy trong Windows, bạn sử dụng phím tắt nào?",
+      "options": [
+        "A. Windows + M",
+        "B. Alt + F4",
+        "C. Ctrl + Shift + F",
+        "D. Ctrl + Tab"
+      ],
+      "correctAnswer": "B",
+      "category": "windows",
+      "difficulty": "easy",
+      "explanation": "Alt+F4 đóng cửa sổ hoặc ứng dụng đang active."
+    },
+    {
+      "id": 101,
+      "question": "Windows Defender là gì?",
+      "options": [
+        "A. Phần mềm xử lý văn bản",
+        "B. Công cụ bảo vệ máy tính khỏi virus và phần mềm độc hại",
+        "C. Trình duyệt web của Microsoft",
+        "D. Ứng dụng chỉnh sửa ảnh"
+      ],
+      "correctAnswer": "B",
+      "category": "windows",
+      "difficulty": "easy",
+      "explanation": "Windows Defender là antivirus built-in của Windows."
+    },
+    {
+      "id": 102,
+      "question": "Phím tắt Windows + L có tác dụng gì trong Windows?",
+      "options": [
+        "A. Khóa màn hình và quay lại màn hình đăng nhập",
+        "B. Tắt máy tính",
+        "C. Tạo thư mục mới",
+        "D. Đăng xuất khỏi tài khoản"
+      ],
+      "correctAnswer": "A",
+      "category": "windows",
+      "difficulty": "easy",
+      "explanation": "Windows+L lock screen và chuyển về login screen."
+    }
+  ]
+}  
