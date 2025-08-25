@@ -62,9 +62,9 @@
 
         .app-title {
             color: #0b3a6f;
-            font-size: 2.8em;
+            font-size: 3em;
             font-weight: 700;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             text-shadow: none;
             display: inline-flex;
             align-items: center;
@@ -72,16 +72,17 @@
         }
 
         .app-logo {
-            width: 56px;
-            height: 56px;
+            width: 60px;
+            height: 60px;
             object-fit: contain;
             display: inline-block;
         }
 
         .app-subtitle {
             color: var(--text-color);
-            font-size: 1.2em;
+            font-size: 1.3em;
             font-weight: 300;
+            gap: 50px;
         }
 
         /* Login Screen */
@@ -747,10 +748,10 @@
         <div class="app-header">
             <h1 class="app-title">
                 <img src="logo.png" alt="Logo" class="app-logo">
+                Sơ tuyển Thư ký UMC
                 <i class="fas fa-graduation-cap"></i>
-                Thi Trắc Nghiệm Online
             </h1>
-            <p class="app-subtitle">Hệ thống thi trắc nghiệm chuyên nghiệp</p>
+            <p class="app-subtitle">Trắc nghiệm Kiến thức Tin học Văn phòng căn bảnh</p>
         </div>
 
         <!-- Login Section -->
@@ -759,7 +760,7 @@
                 <div class="login-header">
                     <h2 class="login-title">
                         <i class="fas fa-user-circle"></i> 
-                        Thông tin thí sinh
+                        Thông tin Ứng viên
                     </h2>
                 </div>
 
@@ -990,8 +991,7 @@
     <script>
         // App Configuration
         const CONFIG = {
-            GOOGLE_SCRIPT_URL: '', // Will be set later when user configures Google Sheets
-            EXAM_DURATION: 25, // minutes
+            EXAM_DURATION: 20, // minutes
             QUESTIONS_PER_EXAM: 25,
             JSON_FILE: 'cntt_exam_json.json'
         };
@@ -1451,36 +1451,36 @@
         }
 
         // Submit results to Google Sheets
+        // Submit results to Google Sheets using API
+        // Submit results to Google Forms
         async function submitToGoogleSheets(results) {
-            if (!CONFIG.GOOGLE_SCRIPT_URL) {
-                console.log('Google Sheets URL not configured, skipping submission');
-                return;
+            const FORM_ID = "1FAIpQLSdTHps1QokjgvawvIeA2pl1eut9MfGTAfvHKVklKFXlmYnMKQ";
+            const FORM_URL = `https://docs.google.com/forms/d/e/${FORM_ID}/formResponse`;
+            
+            const formData = new FormData();
+            formData.append('entry.906080889', new Date().toLocaleString('vi-VN')); // Thời gian nộp
+            formData.append('entry.751511664', results.studentName); // Họ và tên
+            formData.append('entry.1170899496', results.studentPhone); // Số điện thoại
+            formData.append('entry.1660982512', `${results.score}%`); // Điểm số
+            formData.append('entry.98729775', results.correctCount); // Số câu đúng
+            formData.append('entry.1691584486', results.wrongCount); // Số câu sai
+            formData.append('entry.2011388710', `${results.timeSpent} phút`); // Thời gian làm bài
+            formData.append('entry.1485837486', results.passed ? 'Đậu' : 'Rớt'); // Kết quả
+            formData.append('entry.900719282', JSON.stringify(results.detailedResults)); // Chi tiết
+            
+            try {
+                await fetch(FORM_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    body: formData
+                });
+                console.log('Results submitted to Google Form successfully');
+                showAlert('Kết quả đã được lưu thành công!', 'success');
+            } catch (error) {
+                console.error('Submit to form failed:', error);
+                showAlert('Không thể lưu kết quả, nhưng điểm số vẫn được hiển thị.', 'warning');
             }
-            
-            const submitData = {
-                timestamp: new Date().toLocaleString('vi-VN'),
-                studentName: results.studentName,
-                studentPhone: results.studentPhone,
-                score: results.score,
-                correctAnswers: results.correctCount,
-                wrongAnswers: results.wrongCount,
-                timeSpent: results.timeSpent,
-                passed: results.passed ? 'Đậu' : 'Rớt',
-                detailedResults: JSON.stringify(results.detailedResults)
-            };
-            
-            const response = await fetch(CONFIG.GOOGLE_SCRIPT_URL, {
-                method: 'POST',
-                mode: 'no-cors',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(submitData)
-            });
-            
-            console.log('Results submitted to Google Sheets');
         }
-
         // Reset app to initial state
         function resetApp() {
             // Clear timer
