@@ -3,8 +3,8 @@
     "title": "Đề thi Công nghệ thông tin - Tin học văn phòng",
     "description": "Bộ câu hỏi trắc nghiệm về Microsoft Office, Excel, Word, PowerPoint, hệ điều hành và các ứng dụng văn phòng",
     "totalQuestions": 102,
-    "timeLimit": "60 minutes",
-    "passingScore": 50
+    "timeLimit": "20 minutes",
+    "passingScore": 60
   },
   "categories": [
     {
